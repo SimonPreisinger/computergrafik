@@ -1,0 +1,6 @@
+﻿  Versuch1a.cpp
+c:\projects\computergrafik\a1_versuch1a\versuch1a.cpp(77): warning C4305: "Argument": Verkürzung von "double" in "GLfloat"
+c:\projects\computergrafik\a1_versuch1a\versuch1a.cpp(79): warning C4305: "Argument": Verkürzung von "double" in "GLfloat"
+c:\projects\computergrafik\a1_versuch1a\versuch1a.cpp(104): warning C4305: "Argument": Verkürzung von "double" in "GLfloat"
+c:\projects\computergrafik\a1_versuch1a\versuch1a.cpp(106): warning C4305: "Argument": Verkürzung von "double" in "GLfloat"
+  A1_Versuch1a.vcxproj -> C:\projects\computergrafik\build\A1_Versuch1a\Debug\A1_Versuch1a.exe

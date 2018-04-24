@@ -1,0 +1,25 @@
+﻿  Building Custom Rule C:/projects/computergrafik/Dependencies/GLTools/CMakeLists.txt
+  CMake does not need to re-run because C:/projects/computergrafik/build/Dependencies/GLTools/CMakeFiles/generate.stamp is up-to-date.
+  GLBatch.cpp
+  GLShaderManager.cpp
+  GLTools.cpp
+c:\projects\computergrafik\dependencies\gltools\src\gltools.cpp(395): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\projects\computergrafik\dependencies\gltools\src\gltools.cpp(396): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\projects\computergrafik\dependencies\gltools\src\gltools.cpp(407): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\projects\computergrafik\dependencies\gltools\src\gltools.cpp(408): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\projects\computergrafik\dependencies\gltools\src\gltools.cpp(419): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\projects\computergrafik\dependencies\gltools\src\gltools.cpp(420): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\projects\computergrafik\dependencies\gltools\src\gltools.cpp(432): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\projects\computergrafik\dependencies\gltools\src\gltools.cpp(433): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\projects\computergrafik\dependencies\gltools\src\gltools.cpp(528): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\projects\computergrafik\dependencies\gltools\src\gltools.cpp(529): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\projects\computergrafik\dependencies\gltools\src\gltools.cpp(541): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\projects\computergrafik\dependencies\gltools\src\gltools.cpp(542): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\projects\computergrafik\dependencies\gltools\src\gltools.cpp(559): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\projects\computergrafik\dependencies\gltools\src\gltools.cpp(560): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\projects\computergrafik\dependencies\gltools\src\gltools.cpp(572): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\projects\computergrafik\dependencies\gltools\src\gltools.cpp(573): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  GLTriangleBatch.cpp
+  math3d.cpp
+  Code wird generiert...
+  GLTools.vcxproj -> C:\projects\computergrafik\build\Dependencies\GLTools\Debug\GLTools.lib

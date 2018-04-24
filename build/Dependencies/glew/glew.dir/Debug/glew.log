@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/projects/computergrafik/Dependencies/glew/CMakeLists.txt
+  CMake does not need to re-run because C:/projects/computergrafik/build/Dependencies/glew/CMakeFiles/generate.stamp is up-to-date.
+  glew.c
+  glew.vcxproj -> C:\projects\computergrafik\build\Dependencies\glew\Debug\glew.lib

@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E136CA57-C611-3B20-A59D-53B482A18136}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>A1_Versuch1b</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\projects\computergrafik\build\A1_Versuch1b\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A1_Versuch1b.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A1_Versuch1b</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\projects\computergrafik\build\A1_Versuch1b\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">A1_Versuch1b.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">A1_Versuch1b</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\projects\computergrafik\build\A1_Versuch1b\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">A1_Versuch1b.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">A1_Versuch1b</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\projects\computergrafik\build\A1_Versuch1b\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">A1_Versuch1b.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">A1_Versuch1b</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\projects\computergrafik\Dependencies\FreeImage\Source;C:\projects\computergrafik\Dependencies\freeglut\include;C:\projects\computergrafik\Dependencies\GLTools\include;C:\projects\computergrafik\Dependencies\AntTweakBar\include;C:\projects\computergrafik\Dependencies\glew\include;C:\projects\computergrafik\Dependencies\glm\glm;C:\projects\computergrafik;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;FREEIMAGE_LIB;TW_STATIC;_CRT_SECURE_NO_WARNINGS;FREEGLUT_LIB_PRAGMAS=0;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;FREEIMAGE_LIB;TW_STATIC;_CRT_SECURE_NO_WARNINGS;FREEGLUT_LIB_PRAGMAS=0;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\projects\computergrafik\Dependencies\FreeImage\Source;C:\projects\computergrafik\Dependencies\freeglut\include;C:\projects\computergrafik\Dependencies\GLTools\include;C:\projects\computergrafik\Dependencies\AntTweakBar\include;C:\projects\computergrafik\Dependencies\glew\include;C:\projects\computergrafik\Dependencies\glm\glm;C:\projects\computergrafik;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\projects\computergrafik\Dependencies\FreeImage\Source;C:\projects\computergrafik\Dependencies\freeglut\include;C:\projects\computergrafik\Dependencies\GLTools\include;C:\projects\computergrafik\Dependencies\AntTweakBar\include;C:\projects\computergrafik\Dependencies\glew\include;C:\projects\computergrafik\Dependencies\glm\glm;C:\projects\computergrafik;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\Dependencies\freeglut\Debug\freeglut.lib;..\Dependencies\GLTools\Debug\GLTools.lib;..\Dependencies\AntTweakBar\Debug\AntTweakBar.lib;..\Dependencies\glew\Debug\glew.lib;..\Dependencies\freeglut\Debug\freeglut.lib;winmm.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/projects/computergrafik/build/A1_Versuch1b/Debug/A1_Versuch1b.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/projects/computergrafik/build/A1_Versuch1b/Debug/A1_Versuch1b.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\projects\computergrafik\Dependencies\FreeImage\Source;C:\projects\computergrafik\Dependencies\freeglut\include;C:\projects\computergrafik\Dependencies\GLTools\include;C:\projects\computergrafik\Dependencies\AntTweakBar\include;C:\projects\computergrafik\Dependencies\glew\include;C:\projects\computergrafik\Dependencies\glm\glm;C:\projects\computergrafik;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEIMAGE_LIB;TW_STATIC;_CRT_SECURE_NO_WARNINGS;FREEGLUT_LIB_PRAGMAS=0;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEIMAGE_LIB;TW_STATIC;_CRT_SECURE_NO_WARNINGS;FREEGLUT_LIB_PRAGMAS=0;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\projects\computergrafik\Dependencies\FreeImage\Source;C:\projects\computergrafik\Dependencies\freeglut\include;C:\projects\computergrafik\Dependencies\GLTools\include;C:\projects\computergrafik\Dependencies\AntTweakBar\include;C:\projects\computergrafik\Dependencies\glew\include;C:\projects\computergrafik\Dependencies\glm\glm;C:\projects\computergrafik;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\projects\computergrafik\Dependencies\FreeImage\Source;C:\projects\computergrafik\Dependencies\freeglut\include;C:\projects\computergrafik\Dependencies\GLTools\include;C:\projects\computergrafik\Dependencies\AntTweakBar\include;C:\projects\computergrafik\Dependencies\glew\include;C:\projects\computergrafik\Dependencies\glm\glm;C:\projects\computergrafik;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\Dependencies\freeglut\Release\freeglut.lib;..\Dependencies\GLTools\Release\GLTools.lib;..\Dependencies\AntTweakBar\Release\AntTweakBar.lib;..\Dependencies\glew\Release\glew.lib;..\Dependencies\freeglut\Release\freeglut.lib;winmm.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/projects/computergrafik/build/A1_Versuch1b/Release/A1_Versuch1b.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/projects/computergrafik/build/A1_Versuch1b/Release/A1_Versuch1b.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\projects\computergrafik\Dependencies\FreeImage\Source;C:\projects\computergrafik\Dependencies\freeglut\include;C:\projects\computergrafik\Dependencies\GLTools\include;C:\projects\computergrafik\Dependencies\AntTweakBar\include;C:\projects\computergrafik\Dependencies\glew\include;C:\projects\computergrafik\Dependencies\glm\glm;C:\projects\computergrafik;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEIMAGE_LIB;TW_STATIC;_CRT_SECURE_NO_WARNINGS;FREEGLUT_LIB_PRAGMAS=0;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEIMAGE_LIB;TW_STATIC;_CRT_SECURE_NO_WARNINGS;FREEGLUT_LIB_PRAGMAS=0;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\projects\computergrafik\Dependencies\FreeImage\Source;C:\projects\computergrafik\Dependencies\freeglut\include;C:\projects\computergrafik\Dependencies\GLTools\include;C:\projects\computergrafik\Dependencies\AntTweakBar\include;C:\projects\computergrafik\Dependencies\glew\include;C:\projects\computergrafik\Dependencies\glm\glm;C:\projects\computergrafik;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\projects\computergrafik\Dependencies\FreeImage\Source;C:\projects\computergrafik\Dependencies\freeglut\include;C:\projects\computergrafik\Dependencies\GLTools\include;C:\projects\computergrafik\Dependencies\AntTweakBar\include;C:\projects\computergrafik\Dependencies\glew\include;C:\projects\computergrafik\Dependencies\glm\glm;C:\projects\computergrafik;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\Dependencies\freeglut\MinSizeRel\freeglut.lib;..\Dependencies\GLTools\MinSizeRel\GLTools.lib;..\Dependencies\AntTweakBar\MinSizeRel\AntTweakBar.lib;..\Dependencies\glew\MinSizeRel\glew.lib;..\Dependencies\freeglut\MinSizeRel\freeglut.lib;winmm.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/projects/computergrafik/build/A1_Versuch1b/MinSizeRel/A1_Versuch1b.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/projects/computergrafik/build/A1_Versuch1b/MinSizeRel/A1_Versuch1b.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\projects\computergrafik\Dependencies\FreeImage\Source;C:\projects\computergrafik\Dependencies\freeglut\include;C:\projects\computergrafik\Dependencies\GLTools\include;C:\projects\computergrafik\Dependencies\AntTweakBar\include;C:\projects\computergrafik\Dependencies\glew\include;C:\projects\computergrafik\Dependencies\glm\glm;C:\projects\computergrafik;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEIMAGE_LIB;TW_STATIC;_CRT_SECURE_NO_WARNINGS;FREEGLUT_LIB_PRAGMAS=0;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEIMAGE_LIB;TW_STATIC;_CRT_SECURE_NO_WARNINGS;FREEGLUT_LIB_PRAGMAS=0;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\projects\computergrafik\Dependencies\FreeImage\Source;C:\projects\computergrafik\Dependencies\freeglut\include;C:\projects\computergrafik\Dependencies\GLTools\include;C:\projects\computergrafik\Dependencies\AntTweakBar\include;C:\projects\computergrafik\Dependencies\glew\include;C:\projects\computergrafik\Dependencies\glm\glm;C:\projects\computergrafik;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\projects\computergrafik\Dependencies\FreeImage\Source;C:\projects\computergrafik\Dependencies\freeglut\include;C:\projects\computergrafik\Dependencies\GLTools\include;C:\projects\computergrafik\Dependencies\AntTweakBar\include;C:\projects\computergrafik\Dependencies\glew\include;C:\projects\computergrafik\Dependencies\glm\glm;C:\projects\computergrafik;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\Dependencies\freeglut\RelWithDebInfo\freeglut.lib;..\Dependencies\GLTools\RelWithDebInfo\GLTools.lib;..\Dependencies\AntTweakBar\RelWithDebInfo\AntTweakBar.lib;..\Dependencies\glew\RelWithDebInfo\glew.lib;..\Dependencies\freeglut\RelWithDebInfo\freeglut.lib;winmm.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/projects/computergrafik/build/A1_Versuch1b/RelWithDebInfo/A1_Versuch1b.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/projects/computergrafik/build/A1_Versuch1b/RelWithDebInfo/A1_Versuch1b.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\projects\computergrafik\A1_Versuch1b\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/projects/computergrafik/A1_Versuch1b/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/projects/computergrafik -BC:/projects/computergrafik/build --check-stamp-file C:/projects/computergrafik/build/A1_Versuch1b/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/projects/computergrafik/A1_Versuch1b/CMakeLists.txt;C:\projects\computergrafik\A1_Versuch1b\CMakeLists.txt;C:\projects\computergrafik\cmake\launcher-templates\vcxproj.user.in;C:\projects\computergrafik\cmake\launcher-templates\targetlauncher.cmd.in;C:\projects\computergrafik\cmake\launcher-templates\targetlauncher.cmd.in;C:\projects\computergrafik\cmake\launcher-templates\targetlauncher.cmd.in;C:\projects\computergrafik\cmake\launcher-templates\targetlauncher.cmd.in;C:\projects\computergrafik\A1_Versuch1b\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\projects\computergrafik\build\A1_Versuch1b\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/projects/computergrafik/A1_Versuch1b/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/projects/computergrafik -BC:/projects/computergrafik/build --check-stamp-file C:/projects/computergrafik/build/A1_Versuch1b/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/projects/computergrafik/A1_Versuch1b/CMakeLists.txt;C:\projects\computergrafik\A1_Versuch1b\CMakeLists.txt;C:\projects\computergrafik\cmake\launcher-templates\vcxproj.user.in;C:\projects\computergrafik\cmake\launcher-templates\targetlauncher.cmd.in;C:\projects\computergrafik\cmake\launcher-templates\targetlauncher.cmd.in;C:\projects\computergrafik\cmake\launcher-templates\targetlauncher.cmd.in;C:\projects\computergrafik\cmake\launcher-templates\targetlauncher.cmd.in;C:\projects\computergrafik\A1_Versuch1b\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\projects\computergrafik\build\A1_Versuch1b\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/projects/computergrafik/A1_Versuch1b/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/projects/computergrafik -BC:/projects/computergrafik/build --check-stamp-file C:/projects/computergrafik/build/A1_Versuch1b/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/projects/computergrafik/A1_Versuch1b/CMakeLists.txt;C:\projects\computergrafik\A1_Versuch1b\CMakeLists.txt;C:\projects\computergrafik\cmake\launcher-templates\vcxproj.user.in;C:\projects\computergrafik\cmake\launcher-templates\targetlauncher.cmd.in;C:\projects\computergrafik\cmake\launcher-templates\targetlauncher.cmd.in;C:\projects\computergrafik\cmake\launcher-templates\targetlauncher.cmd.in;C:\projects\computergrafik\cmake\launcher-templates\targetlauncher.cmd.in;C:\projects\computergrafik\A1_Versuch1b\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\projects\computergrafik\build\A1_Versuch1b\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/projects/computergrafik/A1_Versuch1b/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/projects/computergrafik -BC:/projects/computergrafik/build --check-stamp-file C:/projects/computergrafik/build/A1_Versuch1b/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/projects/computergrafik/A1_Versuch1b/CMakeLists.txt;C:\projects\computergrafik\A1_Versuch1b\CMakeLists.txt;C:\projects\computergrafik\cmake\launcher-templates\vcxproj.user.in;C:\projects\computergrafik\cmake\launcher-templates\targetlauncher.cmd.in;C:\projects\computergrafik\cmake\launcher-templates\targetlauncher.cmd.in;C:\projects\computergrafik\cmake\launcher-templates\targetlauncher.cmd.in;C:\projects\computergrafik\cmake\launcher-templates\targetlauncher.cmd.in;C:\projects\computergrafik\A1_Versuch1b\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\projects\computergrafik\build\A1_Versuch1b\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\projects\computergrafik\A1_Versuch1b\Versuch1b.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\projects\computergrafik\build\ZERO_CHECK.vcxproj">
+      <Project>{DE58807D-C38F-3941-9D85-5104F1AAD145}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\projects\computergrafik\build\Dependencies\AntTweakBar\AntTweakBar.vcxproj">
+      <Project>{2E70E726-C725-38A8-AB09-0A5FA0015415}</Project>
+      <Name>AntTweakBar</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\projects\computergrafik\build\Dependencies\GLTools\GLTools.vcxproj">
+      <Project>{BF01BE0B-4093-3941-B6BE-DEEDE30682DC}</Project>
+      <Name>GLTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\projects\computergrafik\build\Dependencies\freeglut\freeglut.vcxproj">
+      <Project>{281411B4-DF4C-3EDD-8152-5BB67F25B16F}</Project>
+      <Name>freeglut</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\projects\computergrafik\build\Dependencies\glew\glew.vcxproj">
+      <Project>{9949FF7B-97F2-33F2-95B5-9D36BCA8F674}</Project>
+      <Name>glew</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

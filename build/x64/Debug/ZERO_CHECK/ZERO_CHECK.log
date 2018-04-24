@@ -1,0 +1,22 @@
+﻿  Checking Build System
+  CMake does not need to re-run because C:/projects/computergrafik/build/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/Dependencies/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/Dependencies/freeglut/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/Dependencies/glew/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/Dependencies/AntTweakBar/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/Dependencies/FreeImage/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/Dependencies/GLTools/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/Dependencies/glm/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/ObjLoader/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/ImageLoader/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/Utils/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/A1_Versuch1a/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/A1_Versuch1b/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/A1_Versuch1c/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/A1_FraktaleSzene/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/A3_Normalenvektoren/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/A4_CubeMapping/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/A5_BumpMapping/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/A5_GeometryShader/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/A5_PercentageCloserSoftShadows/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/projects/computergrafik/build/A5_DisplacementMapping/CMakeFiles/generate.stamp is up-to-date.

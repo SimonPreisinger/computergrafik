@@ -1,0 +1,32 @@
+﻿  Building Custom Rule C:/projects/computergrafik/Dependencies/AntTweakBar/CMakeLists.txt
+  CMake does not need to re-run because C:/projects/computergrafik/build/Dependencies/AntTweakBar/CMakeFiles/generate.stamp is up-to-date.
+  TwPrecomp.cpp
+  TwMgr.cpp
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6225): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6226): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6227): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6228): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6229): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6230): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6231): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6232): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6233): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6234): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6235): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6236): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6237): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6239): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6252): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6258): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+c:\projects\computergrafik\dependencies\anttweakbar\src\twmgr.cpp(6267): warning C4302: "Typumwandlung": Verkürzung von "LPSTR" in "WORD"
+  TwFonts.cpp
+  TwColors.cpp
+  TwBar.cpp
+  TwOpenGL.cpp
+  LoadOGL.cpp
+  TwOpenGLCore.cpp
+  LoadOGLCore.cpp
+  Code wird generiert...
+  TwEventGLUT.c
+TwPrecomp.obj : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+  AntTweakBar.vcxproj -> C:\projects\computergrafik\build\Dependencies\AntTweakBar\Debug\AntTweakBar.lib

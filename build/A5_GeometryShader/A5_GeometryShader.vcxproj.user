@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerEnvironment>PATH=;%PATH%
+PATH=;%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>C:\projects\computergrafik\build\A5_GeometryShader\Debug\A5_GeometryShader.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>C:/projects/computergrafik/A5_GeometryShader</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerEnvironment>PATH=;%PATH%
+PATH=;%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>C:\projects\computergrafik\build\A5_GeometryShader\Release\A5_GeometryShader.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>C:/projects/computergrafik/A5_GeometryShader</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <LocalDebuggerEnvironment>PATH=;%PATH%
+PATH=;%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>C:\projects\computergrafik\build\A5_GeometryShader\MinSizeRel\A5_GeometryShader.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>C:/projects/computergrafik/A5_GeometryShader</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <LocalDebuggerEnvironment>PATH=;%PATH%
+PATH=;%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>C:\projects\computergrafik\build\A5_GeometryShader\RelWithDebInfo\A5_GeometryShader.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>C:/projects/computergrafik/A5_GeometryShader</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+
+</Project>
